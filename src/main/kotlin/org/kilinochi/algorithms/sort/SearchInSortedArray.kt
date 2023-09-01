@@ -27,6 +27,8 @@ object SearchInSortedArray {
     fun search(array: IntArray, target: Int): Int {
         if (array.size == 1 && array[0] == target) {
             return 0
+        } else if (array.size == 1) {
+            return -1;
         }
 
         var leftIndex = array[0]
