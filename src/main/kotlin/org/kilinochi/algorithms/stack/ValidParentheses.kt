@@ -30,7 +30,8 @@ object ValidParentheses {
     fun isValid(s: String): Boolean {
 
         val stack: ArrayDeque<Char> = ArrayDeque()
-        for (c in s.toCharArray()) {
+        val charArray = s.toCharArray()
+        for (c in charArray) {
             if (c == '(' || c == '{' || c == '[') {
                 stack.addFirst(c)
             } else if (c == ')' && !stack.isEmpty() && stack.firstOrNull() == '(') {
