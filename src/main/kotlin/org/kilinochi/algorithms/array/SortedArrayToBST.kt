@@ -21,8 +21,8 @@ object SortedArrayToBST {
         val mid = sortedArray.size / 2
 
         val root = TreeNode(sortedArray[mid])
-        val leftArray = sortedArray.sliceArray(0..<mid)
-        val rightArray = sortedArray.sliceArray(mid + 1..<sortedArray.size)
+        val leftArray = sortedArray.sliceArray(0..< mid)
+        val rightArray = sortedArray.sliceArray(mid + 1..< sortedArray.size)
 
         root.left = sortedArrayToBST(leftArray)
         root.right = sortedArrayToBST(rightArray)
