@@ -30,6 +30,11 @@ object SortedArrayToBST {
         return root
     }
 
+    // *
+    //  Time complexity: 181 ms
+    //  Space complexity: 37.4 MB
+    // * //
+
     data class TreeNode(
         val `val`: Int
     ) {

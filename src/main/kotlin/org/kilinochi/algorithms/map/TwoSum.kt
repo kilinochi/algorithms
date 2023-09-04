@@ -36,4 +36,8 @@ object TwoSum {
         }
         throw IllegalArgumentException("No two sum solution")
     }
+    // *
+    //  Time complexity: 188 ms
+    //  Space complexity: 37.6 MB
+    // * //
 }

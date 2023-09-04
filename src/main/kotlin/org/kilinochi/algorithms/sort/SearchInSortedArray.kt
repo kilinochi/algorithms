@@ -31,21 +31,26 @@ object SearchInSortedArray {
             return -1;
         }
 
-        var leftIndex = array[0]
-        var rightIndex = array.size - 1
+        var left = array[0]
+        var right = array.size - 1
 
-        while (leftIndex <= rightIndex) {
-            val middleIndex = leftIndex  + ((rightIndex - leftIndex) / 2)
+        while (left <= right) {
+            val middleIndex = left  + ((right - left) / 2)
 
             if (array[middleIndex] == target) {
                 return middleIndex
             } else if (array[middleIndex] < target) { // ищем справа
-                leftIndex = middleIndex + 1
+                left = middleIndex + 1
             } else if (array[middleIndex] > target) { // ищем слева
-                rightIndex = middleIndex - 1
+                right = middleIndex - 1
             }
         }
 
         return -1
     }
+
+    // *
+    //  Time complexity: 0 ms
+    //  Space complexity: 44,9 MB
+    // * //
 }

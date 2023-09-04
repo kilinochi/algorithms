@@ -59,4 +59,8 @@ object RemovingStarsFromAString {
         }
         return sb.reverse().toString()
     }
+    // *
+    //  Time complexity: 336 ms
+    //  Space complexity: 42.7 MB
+    // * //
 }

@@ -41,6 +41,11 @@ object IsValidBST {
         return isValidBST(node.left, left, node.`val`) && isValidBST(node.right, node.`val`, right)
     }
 
+    // *
+    //  Time complexity: 206 ms
+    //  Space complexity: 37.3 MB
+    // * //
+
     data class TreeNode(
         val `val`: Int
     ) {

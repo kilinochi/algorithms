@@ -74,6 +74,10 @@ object AddTwoNumbers {
         }
         return stringBuilder.toString().toBigInteger()
     }
+    // *
+    //  Time complexity: 271 ms
+    //  Space complexity: 42,3 MB
+    // * //
 
     data class ListNode(
         val `val`: Int,

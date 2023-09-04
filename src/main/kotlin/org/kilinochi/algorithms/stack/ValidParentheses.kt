@@ -46,4 +46,8 @@ object ValidParentheses {
         }
         return stack.isEmpty()
     }
+    // *
+    //  Time complexity: 1 ms
+    //  Space complexity: 43 MB
+    // * //
 }

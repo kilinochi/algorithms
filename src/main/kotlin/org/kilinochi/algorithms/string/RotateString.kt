@@ -30,4 +30,9 @@ object RotateString {
         // abcde + abcde = abcdeabcde
         return input.plus(input).contains(goal)
     }
+    // *
+    //  Time complexity: 163 ms
+    //  Space complexity: 35 MB
+    // * //
+
 }

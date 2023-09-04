@@ -58,4 +58,9 @@ object SearchInRotateSortedArray {
 
         return -1
     }
+
+    // *
+    //  Time complexity: 0 ms
+    //  Space complexity: 44,9 MB
+    // * //
 }
